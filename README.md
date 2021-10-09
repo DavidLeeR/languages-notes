@@ -33,3 +33,45 @@
   - programs usually larger
   - beforehand planning of entities that should be modeled as classes
   - steep learning curve
+- examples
+  - Python, C++, Java, Perl, JS
+
+### Procedural Programming
+- work with procedures, also known as routines, subroutines, or functions
+- procedure is essentially a sequence of instructions or computational steps to be executed
+- follows a linear, top-down approach where each program is designed as some combination of a series of code instructions
+- all about the idea of getting things done in a sequence of steps
+- code isn’t organized in any logical groups or object-like entities
+- just think about the different operations that need to happen in succession and code them down.
+- Unlike OOP, where data and methods were tied together (encapsulated) in a class or object, procedural programming uses data and methods as two different entities
+- advantages
+  - Offers a simple, intuitive, and straightforward way of writing sequential code – could be a godsend for people just starting out with programming
+  - easier for compilers and interpreters
+  - Easy to track program flow
+- disadvantages
+  - Procedural programming code is not reusable. You’ll have to replicate the code implementation across different programs or files.
+  - Not easy to scale up or extend for larger applications.
+  - Not secure, because of visibility of data across the whole program.
+- examples
+  - C
+
+### Functional Programming
+- all about organizing your code around the idea of using functions
+- Each function should be set up to perform a clearly defined task and ideally be a pure one
+- break down the functionality of your code into neat, single-responsibility, reusable functions, and then pass them the necessary data parameters that they need to work with, let them process data (locally, without affecting the global state), and return the required values, which can then be used in the program
+- principles
+  - pure functions
+    - A pure function is one that returns the same output for a given set of inputs, without having any side effects
+    - have Referential transparency
+      - the invocation of a function (a function call) could be replaced by the value it returns, without affecting anything in your code
+    - pure functions only use the parameters they are passed
+  - should ideally only use immutable data
+    - This means that every time you want to do an operation on a variable, you store the updated value in a new variable instead of modifying the initial one
+  - avoid Shared State
+  - First-class and Higher-Order Functions
+    - A first-class function is one that can be used just like any other variable – it can be passed to another function as an argument, returned as a value from another function, stored in data structures, and even be assigned as a value to a variable
+    - Similarly, a higher-order function is one that can take as an argument or return as a value another function
+    - This is how functional programming languages allow you to create and work with functions flexibly.
+  - Recursion
+    - aimed at as an alternative for iteration through while and for loops
+  - 
