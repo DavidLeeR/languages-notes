@@ -74,4 +74,16 @@
     - This is how functional programming languages allow you to create and work with functions flexibly.
   - Recursion
     - aimed at as an alternative for iteration through while and for loops
-  - 
+- advantages
+  - reliable
+    - Pure functions will always return the same output for a given set of inputs, and will not have any side effects on the rest of the program.
+  - Easier debugging
+    - Thanks to immutability, developers need not track the whole history of a variable’s state across the program, and can instead target variables at specific points in the code where they might be creating problems
+  - Lazy evaluation
+    - Functional programming allows for lazy evaluation, i.e. values of variables are calculated only when it is required.
+- disadvantages
+  - using recursion for every iteration operation is unintuitive, as compared to using while and for loops
+  - Reduced performance because of immutability – especially when having to duplicate large data structures even for making small changes.
+  - Difficult or inefficient to perform recursion without letting variables be updated (immutability)
+- examples
+  - haskell, scala
