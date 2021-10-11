@@ -53,7 +53,7 @@
   - Not easy to scale up or extend for larger applications.
   - Not secure, because of visibility of data across the whole program.
 - examples
-  - C
+  - C, Golang
 
 ### Functional Programming
 - all about organizing your code around the idea of using functions
