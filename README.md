@@ -1,6 +1,6 @@
 # languages-notes
 
-## Programming paradigms
+## Popular Programming Paradigms
 - object oriented programming (oop)
 - functional programming
 - procedural programming
